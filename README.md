@@ -4,11 +4,11 @@
 ```
 gradlew setupDecompWorkspace 
 ```
-### Setup for InteliJ
+##### Setup for InteliJ
 ```
 gradlew idea
 ```
-### Setup for Eclipse
+##### Setup for Eclipse
 ```
 gradlew eclipse
 ```
