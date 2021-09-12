@@ -1,10 +1,10 @@
 # LabyModAddon-1.8.9
 
-#### Setup Workspace
+⋅⋅* #### Setup Workspace
 ```
 gradlew setupDecompWorkspace 
 ```
-#### Build Addon
+⋅⋅* #### Build Addon
 ```
 gradlew build 
 ```
