@@ -4,7 +4,7 @@ This Template uses the Forge version ([#1855](https://adfoc.us/serve/sitelinks/?
 
 [LabyMod Docs](https://docs.labymod.net/pages/create-addons/introduction/)
 
-[LabyMod Libs](https://dl.labymod.net/latest/api/) To Download the Latest Version of the API.
+[LabyMod Libs](https://dl.labymod.net/latest/api/) to Download the Latest Version of the API.
 
 #### Setup Workspace
 ```
