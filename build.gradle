@@ -24,6 +24,12 @@ version = "1.0"
 group= "com.yourname.modid" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "modid"
 
+srcCompat = JavaVersion.VERSION_1_8
+targetCompat = JavaVersion.VERSION_1_8
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
 minecraft {
     version = "1.8.9-11.15.1.1855"
     runDir = "run"
@@ -78,5 +84,11 @@ processResources
     // copy everything else, thats not the mcmod.info
     from(sourceSets.main.resources.srcDirs) {
         exclude 'mcmod.info'
+    }
+}
+
+reobf {
+    jar {
+        useNotchSrg()
     }
 }
